@@ -53,6 +53,8 @@ You can use the Postman file `PaymentGateway.postman_collection.json` included i
 - `ValueObject` must be built with the associated static `Create` method
 - Endpoints are organized by `features`
 
+[![Visualization of the codebase](./diagram.svg)](https://mango-dune-07a8b7110.1.azurestaticapps.net/?repo=jasonycw%2Fpayment-gateway-api)
+
 ## Flow
 
 Since we cannot predict how fast the bank will return a response, we need to make the `[POST] /payments` endpoint asynchronous.
